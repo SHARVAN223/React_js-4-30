@@ -27,7 +27,7 @@ const student = [
 
 const ans = student.map((key)=>{
     return (
-        <tr>
+        <tr>558
             <td>{key.rollno}</td>
             <td>{key.name}</td>
             <td>{key.subject}</td>

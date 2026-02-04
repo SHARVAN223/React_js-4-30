@@ -1,8 +1,9 @@
-import Cybrom from "./cybrom";
+import Style from "./style";
+
 const App=()=>{
   return(
     <> 
-     <Cybrom/>
+     <Style/>
     </>
   )
 }
