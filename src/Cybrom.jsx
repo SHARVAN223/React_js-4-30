@@ -1,4 +1,4 @@
-import Collage from "./Collage"
+
 
 
 const student = [

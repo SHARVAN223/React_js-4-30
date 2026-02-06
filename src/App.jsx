@@ -1,9 +1,8 @@
-import Style from "./style";
-
+import Style from "./Style"
 const App=()=>{
   return(
     <> 
-     <Style/>
+    <Style/>
     </>
   )
 }

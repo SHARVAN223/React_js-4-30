@@ -1,8 +1,11 @@
-import Bihar from "./bihar"
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Carousel from 'react-bootstrap/Carousel';
+import img from "./ironmen.jpg";
+import img2 from "./thorr.jpg";
 
 const Style =() =>{
     return (
@@ -30,6 +33,31 @@ const Style =() =>{
         </Navbar.Collapse>
       </Container>
     </Navbar>
+     <Carousel>
+      <Carousel.Item>
+        <img src={img}/>
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+         <img src={img}/>
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={img2}/>
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
         </>
     )
 }
